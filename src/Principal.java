@@ -62,7 +62,7 @@ public class Principal {
      * Entrada: Vetor A, delimitadores e e d do subvetor e x.
      * B Saída: Indice 1 <= i <= n tal que A[i] = x ou i = 0
      * 
-     * Demora tmepo serial Theta(log n) no pior caso
+     * Pior caso Theta(log n)
      * 
      * Página 580 Cormen 3 ed
      * 
@@ -87,6 +87,7 @@ public class Principal {
     }       
     
     public static void main(String[] args) {
+        
         //Vetor dos dados    
         int T[] = {10, 20, 30, 40, 50, 60, 70, 80};
         
