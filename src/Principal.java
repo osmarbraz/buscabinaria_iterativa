@@ -6,7 +6,7 @@
  * Prof Alexandre Gonçalves da Silva 
  *
  *
- * Página 580 Cormen 3 ed
+ * Página 580 Thomas H. Cormen 3 ed
  *
  * Algoritmo de Busca Binária Iterativa/Iterative BinarySearch
  *
@@ -45,7 +45,7 @@ public class Principal {
      *
      * Em java pode ser utilizando Math.floor(double)
      *
-     * @param x Numero real a ser cálculado o piso.
+     * @param x Número real a ser calculado o piso.
      * @return um valor inteiro com o piso de x.
      */
     public static int piso(double x) {
@@ -53,23 +53,23 @@ public class Principal {
         int parteInteira = (int) x;
         //Pego a parte fracionária de x
         double parteFracionaria = x - parteInteira;
-        //Retorno x subtraindo a parte fracionaria 
+        //Retorno x subtraindo a parte fracionária 
         return (int) (x - parteFracionaria);
     }    
           
     /**
      * Busca Binária Iterativa.
      * Entrada: Vetor A, delimitadores e e d do subvetor e x.
-     * B Saída: Indice 1 <= i <= n tal que A[i] = x ou i = 0
+     * B Saída: Índice 1 <= i <= n tal que A[i] = x ou i = 0
      * 
      * Pior caso Theta(log n)
      * 
-     * Página 580 Cormen 3 ed
+     * Página 580 Thomas H. Cormen 3 ed
      * 
      * @param x valor a ser procurado no vetor
      * @param T vetor com os valores 
-     * @param p indice do inicio do vetor
-     * @param r indice do final do vetor
+     * @param p índice do inicio do vetor
+     * @param r índice do final do vetor
      *
      */
     public static int buscaBinaria(int x, int[] T, int p , int r) {
