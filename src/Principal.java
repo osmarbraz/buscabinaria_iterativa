@@ -24,11 +24,11 @@
 public class Principal {
 
     /**
-     * Retorna o maior valor entre dois valores
+     * Retorna o maior valor entre dois valores inteiros.
      *
-     * @param a primeiro valor
-     * @param b segundo valor
-     * @return o maior valor entre os dois valores
+     * @param a primeiro valor inteiro.
+     * @param b segundo valor inteiro.
+     * @return o maior valor entre os a e b
      */
     public static int max(int a, int b) {
         if (a > b) {
