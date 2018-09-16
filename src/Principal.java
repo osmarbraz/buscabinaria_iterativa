@@ -6,7 +6,7 @@
  * Prof Alexandre Gonçalves da Silva 
  *
  *
- * Página 580 Thomas H. Cormen 3 ed
+ * Página 580/799 Thomas H. Cormen 3 ed
  *
  * Algoritmo de Busca Binária Iterativa/Iterative BinarySearch
  *
@@ -59,20 +59,20 @@ public class Principal {
           
     /**
      * Busca Binária Iterativa.
-     * Entrada: Vetor A, delimitadores e e d do subvetor e x.
-     * B Saída: Índice 1 <= i <= n tal que A[i] = x ou i = 0
+     * Entrada: x, Vetor T, delimitadores p e r do subvetor.
+     * B Saída: Índice 1 <= meio <= n tal que T[i] = x ou meio = 0.
      * 
-     * Pior caso Theta(log n)
+     * Pior caso Theta(log n).
      * 
-     * Página 580 Thomas H. Cormen 3 ed
-     * 
+     * Página 580/799 Thomas H. Cormen 3 ed.
+     *     
      * @param x valor a ser procurado no vetor
      * @param T vetor com os valores 
      * @param p índice do inicio do vetor
-     * @param r índice do final do vetor
+     * @param r índice do final do vetor     
      *
      */
-    public static int buscaBinaria(int x, int[] T, int p , int r) {
+    public static int buscaBinaria(int x, int[] T ,int p , int r) {
         int menor = p;
         int maior = max(p,r);
         while (menor < maior) {
